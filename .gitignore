@@ -1,0 +1,29 @@
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# Runtime output
+*.log
+logs/
+*.sqlite
+*.db
+chroma*/
+.chroma/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
